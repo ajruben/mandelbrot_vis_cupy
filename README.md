@@ -1,9 +1,10 @@
 In this repo I experimented with [CUDA kernels](https://modal.com/gpu-glossary/device-software/kernel) via [CuPy](https://cupy.dev/) and [Datashader](https://datashader.org/) for visualising the famous [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set).
 
-With this approach we can quickly scan the 'zoomed out' mandelbrot, at the penalty of floating-Point precision, and therefore resolution when zooming in. Therefore not suitable for generating the deep-zoom output.
+With this approach we can quickly scan the 'zoomed out' mandelbrot, at the penalty of floating-Point precision, and therefore resolution when zooming in. Therefore not suitable for generating the deep-zoom output, but you can zoom in a bit.
 
 See https://www.rubenswarts.nl/projects/3
 
+Generated with my [rtx 4090](https://en.wikipedia.org/wiki/GeForce_RTX_40_series):
 <img width="828" height="828" alt="afbeelding" src="https://github.com/user-attachments/assets/bac9e6d1-3590-4726-8957-07fc37b9afa6" />
 
 <img width="1024" height="1024" alt="afbeelding" src="https://github.com/user-attachments/assets/8b12ce27-509d-4d78-8480-4148551f7433" />
